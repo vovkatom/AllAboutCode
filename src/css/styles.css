@@ -1,25 +1,39 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto.ttf') format('truetype');
+
+  font-family: 'PlayfairDisplay';
+  src: url('../fonts/playfairdisplay.ttf') format('truetype');
+}
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  --color-blue: #0a224a;
+  --color-grey: #7a7a7a;
+  --color-dark-grey: #b6b6b6;
+  --color-gainsboro: #d9d9d9;
+  --color-light-blue: #f7faff;
+  --color-white: #ffffff;
+  --color-hover: #061835;
+  --color-error: #e74a3b;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'PlayfairDisplay', sans-serif;
 }
+
+body {
+  color: var(--blue-font, #0a224a);
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 1.5; /* 150% */
+}
+
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about-us.css');
+@import url('./price.css');
+@import url('./our-products.css');
+@import url('./bestsellers.css');
+@import url('./clients-reviews.css');
+@import url('./subscription.css');
+@import url('./footer.css');
