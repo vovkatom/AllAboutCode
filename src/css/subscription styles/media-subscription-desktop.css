@@ -1,0 +1,88 @@
+/*-------- 1440 desktop ---------------------*/
+@media screen and (min-width: 1440px) {
+  /*============================================================================*/
+  /*----------- COMMON STYLES -------------*/
+  .container {
+  }
+
+  .section-title {
+  }
+
+  /*================================================*/
+  /*------------- 1440 ----------------*/
+  .newsletter {
+    /* padding-top: 100px; */
+    padding-bottom: 86px;
+  }
+
+  .newsletter > .container {
+    max-width: 1120px;
+    display: flex;
+    gap: 100px;
+  }
+
+  .newsletter-form-wrap {
+    margin-bottom: 0px;
+    max-width: 536px;
+  }
+
+  .newsletter-title {
+    margin-bottom: 31px;
+  }
+
+  .newsletter-text {
+    margin-bottom: 20px;
+  }
+
+  .newsletter-form {
+  }
+
+  .newsletter-name-wrap {
+  }
+
+  .newsletter-input {
+  }
+
+  .newsletter-input:hover,
+  .newsletter-input:focus {
+  }
+
+  .newsletter-input::placeholder {
+  }
+
+  .newsletter-email-wrap {
+  }
+
+  .newsletter-error-icon {
+  }
+
+  /*------------------------------------------------*/
+  .newsletter-email-wrap:hover .newsletter-error-icon {
+  }
+  .newsletter-email-wrap:hover > .newsletter-input {
+  }
+  .newsletter-email-wrap:hover > .newsletter-input::placeholder {
+  }
+  /*------------------------------------------------*/
+
+  .newsletter-check-text {
+    margin-bottom: 31px;
+  }
+
+  .newsletter-check-text span {
+  }
+
+  .newsletter-check:checked + .newsletter-check-text span {
+  }
+
+  .newsletter-submit-btn {
+  }
+
+  .newsletter-submit-btn:hover,
+  .newsletter-submit-btn:focus {
+  }
+
+  .newsletter-img-wrap {
+    width: 460px;
+  }
+}

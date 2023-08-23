@@ -1,0 +1,78 @@
+/*-------- 375 mobile ---------------------*/
+@media screen and (min-width: 375px) {
+  /*============================================================================*/
+  /*----------- COMMON STYLES -------------*/
+  .container {
+  }
+
+  .section-title {
+  }
+
+  /*================================================*/
+  /*------------- 375 ----------------*/
+  .newsletter {
+  }
+
+  .newsletter > .container {
+    max-width: 367px;
+  }
+
+  .newsletter-form-wrap {
+  }
+
+  .newsletter-title {
+  }
+
+  .newsletter-text {
+  }
+
+  .newsletter-form {
+  }
+
+  .newsletter-name-wrap {
+  }
+
+  .newsletter-input {
+  }
+
+  .newsletter-input:hover,
+  .newsletter-input:focus {
+  }
+
+  .newsletter-input::placeholder {
+  }
+
+  .newsletter-email-wrap {
+  }
+
+  .newsletter-error-icon {
+  }
+
+  /*------------------------------------------------*/
+  .newsletter-email-wrap:hover .newsletter-error-icon {
+  }
+  .newsletter-email-wrap:hover > .newsletter-input {
+  }
+  .newsletter-email-wrap:hover > .newsletter-input::placeholder {
+  }
+  /*------------------------------------------------*/
+
+  .newsletter-check-text {
+  }
+
+  .newsletter-check-text span {
+  }
+
+  .newsletter-check:checked + .newsletter-check-text span {
+  }
+
+  .newsletter-submit-btn {
+  }
+
+  .newsletter-submit-btn:hover,
+  .newsletter-submit-btn:focus {
+  }
+
+  .newsletter-img-wrap {
+  }
+}

@@ -1,0 +1,91 @@
+/*-------- 768 tablet ---------------------*/
+@media screen and (min-width: 768px) {
+  /*============================================================================*/
+  /*----------- COMMON STYLES -------------*/
+  .container {
+  }
+
+  .section-title {
+  }
+
+  /*================================================*/
+  /*------------- 768 ----------------*/
+  .newsletter {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .newsletter > .container {
+    max-width: 728px;
+  }
+
+  .newsletter-form-wrap {
+    margin-bottom: 64px;
+    max-width: 536px;
+  }
+
+  .newsletter-title {
+    margin-bottom: 30px;
+
+    font-size: 32px;
+    line-height: 1.4;
+    text-align: start;
+  }
+
+  .newsletter-text {
+    font-size: 18px;
+  }
+
+  .newsletter-form {
+  }
+
+  .newsletter-name-wrap {
+  }
+
+  .newsletter-input {
+  }
+
+  .newsletter-input:hover,
+  .newsletter-input:focus {
+  }
+
+  .newsletter-input::placeholder {
+    font-size: 18px;
+  }
+
+  .newsletter-email-wrap {
+  }
+
+  .newsletter-error-icon {
+  }
+
+  /*------------------------------------------------*/
+  .newsletter-email-wrap:hover .newsletter-error-icon {
+  }
+  .newsletter-email-wrap:hover > .newsletter-input {
+  }
+  .newsletter-email-wrap:hover > .newsletter-input::placeholder {
+  }
+  /*------------------------------------------------*/
+
+  .newsletter-check-text {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+
+  .newsletter-check-text span {
+  }
+
+  .newsletter-check:checked + .newsletter-check-text span {
+  }
+
+  .newsletter-submit-btn {
+  }
+
+  .newsletter-submit-btn:hover,
+  .newsletter-submit-btn:focus {
+  }
+
+  .newsletter-img-wrap {
+  }
+}
