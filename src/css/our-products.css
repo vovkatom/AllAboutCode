@@ -1,4 +1,4 @@
-.container {
+.product-container {
     min-width: 320px;
     margin: 0 auto;
     padding-left: 16px;
@@ -61,7 +61,7 @@
         display: none;
     }
 
-    .container {
+    .product-container {
         width: 704px;
     }
 
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 769px) and (max-width: 2000px) {
-    .container {
+    .product-container {
         width: 1320px;
     }
 
