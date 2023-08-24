@@ -8,6 +8,7 @@
   padding-top: 36px;
   padding-bottom: 36px;
   line-height: 0;
+  display: gap;
 
   /* padding-left: 16px; */
 }
@@ -42,9 +43,9 @@
   }
 }
 
-/* .header-navigation-list {
+.header-navigation-list {
   display: none;
-} */
+}
 
 .header-navigation-link {
   font-weight: 400;
