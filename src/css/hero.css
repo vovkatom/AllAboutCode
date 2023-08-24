@@ -2,6 +2,7 @@
   position: relative;
   padding: 0;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .hero-images {
@@ -20,6 +21,16 @@
   width: 766px;
   height: 716px;
   background-image: url('../images/hero/hero-mob.jpg');
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .first-image {
+    align-items: center;
+    background-size: contain;
+    background-image: url('../images/hero/hero-mob-2x.jpg');
+  }
 }
 
 .wider-image,
@@ -84,6 +95,16 @@
     margin-right: 30px;
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .first-image {
+      align-items: center;
+      background-size: contain;
+      background-image: url('../images/hero/hero-tab1-2x.jpg');
+    }
+  }
+
   .wider-image {
     display: flex;
     width: 466px;
@@ -91,6 +112,16 @@
     background-image: url('../images/hero/hero-tab2.jpg');
     margin-bottom: 166px;
     margin-right: 30px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .wider-image {
+      align-items: center;
+      background-size: contain;
+      background-image: url('../images/hero/hero-tab2-2x.jpg');
+    }
   }
 
   .hero-content {
@@ -132,11 +163,31 @@
     margin-left: 0;
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .first-image {
+      align-items: center;
+      background-size: contain;
+      background-image: url('../images/hero/hero1-2x.jpg');
+    }
+  }
+
   .wider-image {
     width: 648px;
     height: 530px;
     background-image: url('../images/hero/hero2.jpg');
     margin-bottom: 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .wider-image {
+      align-items: center;
+      background-size: contain;
+      background-image: url('../images/hero/hero2-2x.jpg');
+    }
   }
 
   .last-image {
@@ -145,6 +196,16 @@
     height: 337px;
     background-image: url('../images/hero/hero3.jpg');
     margin-bottom: 193px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .last-image {
+      align-items: center;
+      background-size: contain;
+      background-image: url('../images/hero/hero3-2x.jpg');
+    }
   }
 
   .hero-content {
