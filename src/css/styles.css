@@ -35,7 +35,7 @@
 body {
   color: var(--blue-font, #0a224a);
   font-family: var(--primary-font);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5; /* 150% */
 }
 
