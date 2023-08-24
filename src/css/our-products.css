@@ -59,7 +59,7 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 2000px) {
+@media (min-width: 769px) and (max-width: 5000px) {
     .container {
         width: 1320px;
     }
