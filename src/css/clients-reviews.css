@@ -94,11 +94,8 @@ line-height: 1.29; /* 128.571% */
 }
 
 @media screen and (min-width: 768px) {
-/* .container {
-    max-width: 768px;
-} */
 
-.cl-rev-title {
+    .cl-rev-title {
 font-size: 32px;
 line-height: 1.41;
 }
