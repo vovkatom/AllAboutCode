@@ -13,6 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,12 +38,16 @@
  
   <footer class="footer">
     <div class="container-footer">
-      <div class="container-logo">
+      <div class="footer-first">
+      <div class="footer-for-mobile">
+        <div class="footer-container-logo id="content" ">
         <a class="footer-logo link" href="./index.html">
           <svg class="svg-logo-footer" alt="logo" width="127" height="16">
             <use href="./images/footer/icons.svg#icon-logo-logo"></use>
           </svg>
         </a> 
+      </div>
+      <div class="footer-nav"></div>
         <ul class="footer-list">
           <li>
           <a class="footer-menu-link link" href="./index.html">About us</a>
@@ -58,25 +65,26 @@
           <a class="footer-menu-link link" href="./index.html">Reviews</a>
           </li>
         </ul>
+        </div>
         <div class="footer-container-social">
-              <ul class="list-footer-social">
+              <ul class="list-footer-social ">
           <li class="footer-item">
-            <a class="footer-url" href="">
-              <svg class="svg-icon-footer" width="40" height="40">
+            <a class="footer-url" target="_blank" href="#">
+              <svg class="svg-icon-footer" width="28" height="28">
                 <use href="./images/footer/icons.svg#icon-facebook-logo"></use>
               </svg>
             </a>
           </li>
           <li class="footer-item">
-            <a class="footer-url" href="">
-              <svg class="svg-icon-footer" width="40" height="40">
+            <a class="footer-url" target="_blank" href="#">
+              <svg class="svg-icon-footer" width="28" height="28">
                 <use href="./images/footer/icons.svg#icon-instagram-logo"></use>
               </svg>
             </a>
           </li>
           <li class="footer-item">
-            <a class="footer-url" href="">
-              <svg class="svg-icon-footer" width="40" height="40">
+            <a class="footer-url" target="_blank" href="#">
+              <svg class="svg-icon-footer" width="28" height="28">
                 <use href="./images/footer/icons.svg#icon-youtube-logo"></use>
               </svg>
             </a>
@@ -85,31 +93,37 @@
         </ul>
       </div>
       </div>
-      <address class="footer-adress">
-            <div class="footer-adress-container">
-              <ul class="footer-adress-list">
-                <li class="adress-item">
-                  <a class="footer-address-link link" href="tel:+380669384758">+380669384758</a>
-                </li>
-                <li class="adress-item">
-                  <a class="footer-address-link link" href="mailto:minimal.furniture@gmail.com">minimal.furniture@gmail.com</a>
-                </li>
-                <li class="adress-item">
-                  <a class="footer-address-link link" href="tel:+380669384759">+380669384759</a>
-                </li>
-              </ul>              
-            </div>
-        </address>
-         
+      
+      <div class="footer-adress-work">
         <div class="footer-work-container">
           <a class="footer-work-link link adress" target="_blank"
-          href="https://www.google.com/maps/place/%D0%9E%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D1%81%D0%BF.,+14,+%D0%9A%D0%B8%D0%B5%D0%B2,+04205/@50.5052114,30.4992079,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4d20e3b042c97:0x59eb7bd7f77d8916!8m2!3d50.5052114!4d30.4992079!16s%2Fg%2F11cncn6z8f?entry=ttu">Obolonsky
-          Prospect, 14, Kyiv</a>
+            href="https://www.google.com/maps/place/%D0%9E%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D1%81%D0%BF.,+14,+%D0%9A%D0%B8%D0%B5%D0%B2,+04205/@50.5052114,30.4992079,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4d20e3b042c97:0x59eb7bd7f77d8916!8m2!3d50.5052114!4d30.4992079!16s%2Fg%2F11cncn6z8f?entry=ttu">Obolonsky
+            Prospect, 14, Kyiv</a>
           <p class="work-hour-footer">Daily 10:00-21:00</p>
         </div>
-        <div>
-          <p class="footer-text">By using this website, you agree to the Terms of Servise and Privacy Policy</p>
-        </div>
+        
+        <address class="footer-adress">
+          <div class="footer-adress-container">
+            <ul class="footer-adress-list">
+              <li class="adress-item">
+                <a class="footer-address-link link" target="_blank" href="tel:+380669384758">+380669384758</a>
+              </li>
+              <li class="adress-item">
+                <a class="footer-address-link link footer-mail" target="_blank"
+                  href="mailto:minimal.furniture@gmail.com">minimal.furniture@gmail.com</a>
+              </li>
+              <li class="adress-item">
+                <a class="footer-address-link link" target="_blank" href="tel:+380669384759">+380669384759</a>
+              </li>
+            </ul>
+          </div>
+        </address>
+      </div>
+      
+          <div class="footer-using">
+            <p class="footer-text">By using this website, you agree to the <a class="footer-agree" href="#">Terms of Servise</a> and <a class="footer-agree" href="#">Privacy Policy</a></p>
+          </div>
+        
     </div>
   </footer>
 </body>
