@@ -1,8 +1,11 @@
-.header_container {
+.header {
+  background-color: var(--color-light-blue);
+}
+
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f7faff;
 }
 
 .header-navigation {
