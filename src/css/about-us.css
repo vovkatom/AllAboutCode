@@ -3,7 +3,7 @@
   background-color: var(--color-light-blue);
 }
 .about {
-  margin: 64px 16px;
+  margin: 64px 0;
   background-color: var(--color-light-blue);
 }
 .about-subtitle {
@@ -75,7 +75,17 @@
   text-transform: uppercase;
   width: 170px;
 }
-
+@media screen and (max-width: 374px) {
+  .about {
+    margin: 64px 0;
+  }
+  .about-title {
+    font: 22px;
+  }
+  .about-text {
+ font: 12px;
+  }
+}
 @media screen and (min-width: 375px) {
   .about-title {
     width: 343px;
