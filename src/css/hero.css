@@ -1,5 +1,6 @@
 .hero {
   position: relative;
+  
 }
 
 .hero-container {
@@ -58,6 +59,11 @@
   color: var(--white, #fff);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-hover, #061835);
+}
+
 @media screen and (min-width: 320px) {
   .first-image {
     align-items: center;
@@ -81,6 +87,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
+    margin-top: 60px;
     max-width: 768px;
   }
 

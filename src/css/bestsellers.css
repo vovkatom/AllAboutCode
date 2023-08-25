@@ -1,0 +1,123 @@
+.bestsellers {
+    max-width: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.bestsellers-title {
+    color: var(--blue-font, #0A224A);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    /* 150% */
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.left-part {
+    margin-bottom: 30px;
+}
+
+.bestsellers-text-cont {
+    margin-top: 14px;
+}
+
+.bestsellers-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.bestsellers-text {
+    color: var(--blue-font, #0A224A);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.bestsellers-price {
+    color: var(--blue-font, #0A224A);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+@media screen and (min-width: 320px) {
+    .no-mob {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+    .bestsellers {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .bestsellers-form-wrap {
+        width: 728px;
+    }
+    .bestsellers-title {
+        font-size: 32px;
+    }
+
+    .bestsellers-text {
+        font-size: 18px;
+    }
+
+    .bestsellers-price {
+        font-size: 18px;
+    }
+
+    .bestsellers-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px 20px;
+    }
+
+    .bestsellers-item {
+        flex-basis: calc((100% - 20px) / 2);
+    }
+
+    .no-mob {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 60px;
+    }
+    .best-cont {
+        width: 1120px;
+        display: flex;
+        margin-left: 112px;
+        gap: 24px;
+    }
+    .bestsellers-form-wrap {
+        padding: 0px;
+    }
+    .bestsellers-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 20px;
+    }
+    .bestsellers-item {
+        flex-basis: calc((100% - 20px) / 2);
+        width: 258px;
+    }
+    .left-part {
+        width: 536px;
+    }
+    .right-part {
+        width: 536px;
+    }
+}
