@@ -32,36 +32,6 @@
     overflow: hidden;
 }
 
-.price-text-name {
-    transition: all 0.2s linear 0s;
-
-    &:before {
-        content: "";
-        font-size: 60px;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        right: 50;
-        top: 0;
-        opacity: 0;
-        height: 100%;
-        width: 40px;
-        transition: all 0.2s linear 0s;
-    }
-
-    &:hover {
-        text-indent: +45px;
-
-        &:before {
-            opacity: 1;
-            text-indent: 0px;
-        }
-    }
-}
-
-
-
 .price-text-money {
     color: var(--blue-font, #0A224A);
     font-size: 16px;
@@ -89,4 +59,31 @@
         width: 1096px;
         margin-left: 112px;
     }
+        .price-text-name {
+            transition: all 0.2s linear 0s;
+    
+            &:before {
+                content: "";
+                font-size: 60px;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                right: 50;
+                top: 0;
+                opacity: 0;
+                height: 100%;
+                width: 40px;
+                transition: all 0.2s linear 0s;
+            }
+    
+            &:hover {
+                text-indent: +45px;
+    
+                &:before {
+                    opacity: 1;
+                    text-indent: 0px;
+                }
+            }
+        }
 }
