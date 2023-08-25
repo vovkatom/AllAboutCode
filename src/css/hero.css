@@ -1,5 +1,6 @@
 .hero {
   position: relative;
+  margin-top: 60px;
 }
 
 .hero-container {
@@ -56,6 +57,11 @@
   background: var(--blue-font, #0a224a);
 
   color: var(--white, #fff);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-hover, #061835);
 }
 
 @media screen and (min-width: 320px) {
