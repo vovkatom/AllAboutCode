@@ -80,11 +80,11 @@
 }
 
 /*------------------------------------------------*/
-.newsletter-input:invalid {
+.newsletter-input:invalid:focus {
   color: #e74a3b;
   border: 1px solid #e74a3b;
 }
-.newsletter-input:invalid + .newsletter-error-icon {
+.newsletter-input:invalid:focus + .newsletter-error-icon {
   opacity: 1;
 }
 /*------------------------------------------------*/
