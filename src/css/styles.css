@@ -8,13 +8,16 @@
 @import url('./clients-reviews.css');
 @import url('./subscription.css');
 @import url('./footer.css');
+@import url('./burger-menu.css');
 
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/roboto.ttf') format('truetype');
+  font-display: swap;
 
   font-family: 'PlayfairDisplay';
   src: url('../fonts/playfairdisplay.ttf') format('truetype');
+  font-display: swap;
 }
 
 
