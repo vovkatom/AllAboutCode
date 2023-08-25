@@ -1,0 +1,68 @@
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .container-footer {
+        min-width: 320px;
+        padding: 0 16px;
+    }
+
+    .footer-second-mob {}
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .container-footer {
+        min-width: 768px;
+        padding: 36px 32px;
+    }
+
+        .footer-first {
+           flex-wrap: wrap-reverse; 
+           flex-wrap: wrap;  
+            width: calc((100% - 172px) / 3); 
+             flex-wrap: wrap; 
+             display: inline; 
+             max-width: 100px; 
+            margin: 0;
+        }
+
+.footer-container-logo {
+    display: none;
+}
+
+.footer-nav {
+
+}
+.footer-list {
+  
+}
+.footer-menu-link {
+    font-size: 18px;
+        gap: 16px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .container-footer {
+        min-width: 1440px;
+        padding: 0 60px;
+    }
+}
