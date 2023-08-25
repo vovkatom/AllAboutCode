@@ -62,7 +62,7 @@
         .price-text-name {
             transition: all 0.2s linear 0s;
     
-            &:before {
+            &:after {
                 content: "";
                 font-size: 60px;
                 position: absolute;
@@ -80,7 +80,7 @@
             &:hover {
                 text-indent: +45px;
     
-                &:before {
+                &:after {
                     opacity: 1;
                     text-indent: 0px;
                 }
