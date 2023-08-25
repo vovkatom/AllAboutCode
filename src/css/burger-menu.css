@@ -13,6 +13,18 @@
   outline: none;
 }
 
+@media only screen and (min-width: 375px) {
+  .menu-toggle {
+    margin-left: 211px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-toggle {
+    margin-left: 537px;
+  }
+}
+
 @media (min-width: 1440px) {
   .menu-toggle {
     display: none;
@@ -41,6 +53,12 @@
   justify-content: space-between;
   background: var(--color-light-blue);
   padding: 0px 16px;
+}
+
+@media only screen and (min-width: 375px) {
+  .header-dop {
+    justify-content: center;
+  }
 }
 
 .modal-svg {
