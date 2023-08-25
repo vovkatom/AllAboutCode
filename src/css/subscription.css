@@ -141,7 +141,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  .container {
+  .newsletter > .container {
     width: 768px;
   }
   .newsletter-form-wrap {
@@ -175,7 +175,7 @@
     padding-top: 100px;
     padding-bottom: 86px;
   }
-  .container {
+  .newsletter > .container {
     width: 1440px;
   }
   .newsletter-container {
