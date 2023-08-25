@@ -35,6 +35,7 @@
   line-height: 1.5;
   text-transform: uppercase;
   margin-bottom: 30px;
+  width: 310px;
 }
 
 .about-text {
@@ -42,6 +43,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  width: 310px;
 }
 
 .about-list .about-text {
@@ -63,6 +65,7 @@
 }
 .about-img {
   flex-shrink: 0;
+  padding: 0;
 }
 
 .about-list-title {
@@ -76,6 +79,12 @@
 }
 
 @media screen and (min-width: 375px) {
+  .about-title {
+    width: 343px;
+  }
+  .about-text {
+    width: 343px;
+  }
 }
 @media screen and (min-width: 768px) {
   .about {
@@ -87,9 +96,11 @@
   .about-title {
     font-size: 32px;
     line-height: 1.4;
+    width: 576px;
   }
   .about-text {
     font-size: 18px;
+    width: 576px;
   }
   .about-list {
     flex-direction: row;
@@ -114,5 +125,11 @@
   }
   .about-img {
     max-width: 536px;
+  }
+  .about-title {
+    width: 622px;
+  }
+  .about-text {
+    width: 622px;
   }
 }
