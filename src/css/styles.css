@@ -20,7 +20,6 @@
   font-display: swap;
 }
 
-
 :root {
   --color-blue: #0a224a;
   --color-grey: #7a7a7a;
@@ -41,5 +40,3 @@ body {
   font-size: 16px;
   line-height: 1.5; /* 150% */
 }
-
-
