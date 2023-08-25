@@ -1,4 +1,4 @@
-.bestsellers-container {
+.bestsellers {
     width: 320px;
     justify-content: center;
     padding-top: 64px;
@@ -58,7 +58,7 @@
         padding: 0 32px;
     }
 
-    .bestsellers-container {
+    .bestsellers {
         width: 704px;
         padding-top: 100px;
         padding-bottom: 100px;
@@ -98,12 +98,12 @@
         padding: 0 60px;
     }
 
-    .bestsellers-container {
+    .bestsellers {
         width: 1440px;
         padding: 100px 172px;
     }
 
-    .bst-cont {
+    .bestsellers-container {
         display: flex;
         gap: 24px;
     }
@@ -113,6 +113,6 @@
     }
 
     .right-part {
-        width: 709px;
+        width: 692px;
     }
 }
