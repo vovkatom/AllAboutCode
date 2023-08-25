@@ -56,12 +56,13 @@
         max-width: 768px;
         padding: 0 32px;
     }
-    .bestsellers-form-wrap {
-        width: 728px;
+    .bestsellers {
         padding-top: 100px;
         padding-bottom: 100px;
     }
-
+    .bestsellers-form-wrap {
+        width: 728px;
+    }
     .bestsellers-title {
         font-size: 32px;
     }
@@ -100,6 +101,9 @@
         display: flex;
         margin-left: 112px;
         gap: 24px;
+    }
+    .bestsellers-form-wrap {
+        padding: 0px;
     }
     .bestsellers-list {
         display: flex;
