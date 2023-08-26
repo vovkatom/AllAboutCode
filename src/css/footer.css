@@ -1,25 +1,3 @@
-:root {
-    --color-blue: #0a224a;
-    --color-grey: #7a7a7a;
-    --color-dark-grey: #b6b6b6;
-    --color-gainsboro: #d9d9d9;
-    --color-light-blue: #f7faff;
-    --color-white: #ffffff;
-    --color-hover: #061835;
-    --color-error: #e74a3b;
-
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'PlayfairDisplay', sans-serif;
-}
-
-body {
-    color: var(--blue-font, #0a224a);
-    font-family: var(--color-white, #ffffff);
-    font-size: 18px;
-    line-height: 1.5;
-    /* 150% */
-    font-family: 'Roboto', sans-serif;
-}
 
 
 
