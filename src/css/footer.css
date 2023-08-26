@@ -1,0 +1,66 @@
+/*----------------------------*/
+.logo,
+.nav1,
+.address,
+.tel,
+.tel2,
+.email,
+.email2,
+.nav2,
+.socials {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  outline: 1px solid tomato;
+}
+.foot > .container {
+  display: flex;
+  gap: 30px;
+}
+.nav2,
+.email,
+.tel2,
+.email2 {
+  display: none;
+}
+
+/*-------- 768 tablet ---------------------*/
+@media screen and (min-width: 768px) {
+  .nav1 {
+    display: none;
+  }
+
+  .nav2,
+  .email {
+    display: block;
+  }
+}
+
+/*-------- 1440 desktop ---------------------*/
+@media screen and (min-width: 1440px) {
+  .nav1,
+  .tel,
+  .email {
+    display: none;
+  }
+  .address {
+    display: block;
+  }
+
+  .nav2,
+  .tel2,
+  .email2 {
+    display: block;
+  }
+  .nav2-list {
+    display: flex;
+    gap: 10px;
+
+    padding: 0;
+    margin-top: 0;
+  }
+  .tel2-email2-wrap {
+    display: flex;
+    gap: 30px;
+  }
+}
