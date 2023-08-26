@@ -36,7 +36,7 @@
     color: var(--blue-font, #0A224A);
     font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: right;
     /* 150% */
     margin-top: 9px;
