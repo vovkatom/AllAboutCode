@@ -1,6 +1,5 @@
 .hero {
   position: relative;
-  
 }
 
 .hero-container {
@@ -24,7 +23,7 @@
 
 .hero-content {
   z-index: 1;
-  padding-top: 120px;
+  padding-top: 140px;
   position: absolute;
   top: 0;
   left: 0;
@@ -50,13 +49,15 @@
 .hero-button {
   display: flex;
   width: 224px;
-  padding: 12px 65px;
+  padding: 17px 65px;
   justify-content: center;
   align-items: center;
   gap: 6px;
   background: var(--blue-font, #0a224a);
-
+  height: 50px;
   color: var(--white, #fff);
+  font-size: 18px;
+  line-height: 1.33;
 }
 
 .hero-button:hover,
@@ -232,7 +233,7 @@
 
   .hero-text {
     margin-left: 1008px;
-    padding-top: 256px;
+    padding-top: 252px;
   }
 
   .hero-button {
