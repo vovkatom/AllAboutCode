@@ -129,7 +129,7 @@
  margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 324px;
+    margin-right: 240px;
     gap: 8px;
     width: calc((100% - 82px) / 2);
     font-style: normal;
@@ -200,14 +200,15 @@
         gap: 64px;
     }
     .footer-container-social {
-       
+       position: relative;
         margin-left: 64px;
         /* float: right; */
     }
     .footer-nav {
-        /* position: absolute; */
-       
-        /* float: left; */
+        position: relative;
+        text-align: center;
+        
+      
         width: auto;
       
     }
