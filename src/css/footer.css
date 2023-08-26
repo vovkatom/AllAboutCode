@@ -12,7 +12,7 @@
   padding: 0;
   margin-top: 0;
   margin-bottom: 20px;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 .foot>.container {
@@ -21,7 +21,27 @@
   gap: 30px;
   background-color: var(--blue-font, #0a224a);
 }
+ .logo {
+   padding-top: 42px;
+ }
+ .socials-list {
+   display: flex;
+   gap: 16px;
+ }
+ .socials {
 
+   padding-top: 36px;
+   pading-left: 127px;
+ }
+ .nav1 {
+  margin-top: 42px;
+ }
+ .address {
+  margin-top: 36px;
+ }
+ .tel {
+   margin-top: 35px;
+ }
 .nav2,
 .email,
 .tel2,
