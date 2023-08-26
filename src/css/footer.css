@@ -1,167 +1,147 @@
-
-
-
-.footer {}
-
-
-
-
-.container-footer {
-    background: var(--blue-font, #0a224a);
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    /* line-height: normal; */
-    font-style: normal;
-
-    /* flex-wrap: wrap;
-flex-direction: column;
-align-items: center;
-gap: 72px;
-margin: 0 auto; */
+/*----------------------------*/
+.logo,
+.nav1,
+.address,
+.tel,
+.tel2,
+.email,
+.email2,
+.nav2,
+.socials {
+  color: var(--color-white, #ffffff);
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  outline: 1px solid tomato;
 }
 
-.container-logo {
-    flex-wrap: wrap;
+.foot>.container {
+
+  display: flex;
+  gap: 30px;
+  background-color: var(--blue-font, #0a224a);
+}
+
+.nav2,
+.email,
+.tel2,
+.email2 {
+  display: none;
+}
+
+/*-------- 768 tablet ---------------------*/
+@media screen and (min-width: 768px) {
+  .nav1 {
+    display: none;
+  }
+
+  .nav2,
+  .email {
+    display: block;
+  }
+
+  .nav2 {
+    padding-top: 36px;
+    margin-left: 120px;
+  }
+
+  .logo {
+    padding-top: 48px;
+  }
+
+  .socials-list {
     display: flex;
-}
+    gap: 16px;
+  }
 
-.footer-logo {}
+  .socials {
 
-.svg-logo-footer {
-    margin-top: 48px;
-    margin-left: 60px;
-}
+    padding-top: 36px;
+    margin-left: 64px;
+  }
 
+  .address {
+    margin-top: 32px;
+  }
 
-.footer-list {
-    /* color: #FFFFFF; */
-    flex-wrap: wrap;
-    /* gap: 30px; */
-    margin-top: 36px;
-    margin-left: 209px;
-    display: inline-flex;
-    font-size: 18px;
-    padding: 8px;
-    gap: 30px;
-    color: var(--color-white, #ffffff);
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-
-}
+  .tel {
+    margin-top: 64px;
+  }
+    .email {
+      margin-top: 24px;
+      }
+    }
 
 
-.footer-menu-link {}
 
-
-.footer-container-social {
-    margin-right: 60px;
-    margin-top: 36px;
-    margin-left: 286px;
-}
-
-.list-footer-social {
-    flex-wrap: wrap;
-    display: flex;
-    gap: 30px;
-}
-
-.footer-adress-work {
-    display: flex;
+/*-------- 1440 desktop ---------------------*/
+@media screen and (min-width: 1440px) {
+  .container {
+    font-family: Roboto;
     font-size: 19px;
-    letter-spacing: 0.19px;
-    line-height: normal;
-}
-
-.footer-item {}
-
-.footer-url {
-    gap: 30px;
-    width: 40px;
-    height: 40px;
-}
-
-
-.svg-icon-footer {
-    fill: var(--color-white, #ffffff);
-
-
-}
-
-.footer-adress {}
-
-
-.footer-adress-container {}
-
-.footer-adress-list {
-    margin-left: 87px;
-    margin-top: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 324px;
-    gap: 24px 82px;
-    width: calc((100% - 82px) / 2);
-    font-style: normal;
-
-
-
-
-}
-
-.adress-item {
-    display: flex;
-    color: var(--color-white, #ffffff);
-    /* gap: 24px; */
-
-}
-
-
-
-.footer-address-link {}
-
-
-
-.footer-work-container {
-    margin-left: 60px;
-    margin-top: 39px;
-
-}
-
-
-.footer-work-link {
-    color: var(--color-white, #ffffff);
-
-}
-
-
-.work-hour-footer {
-    /* flex-wrap: wrap;
-display: flex; */
-    color: var(--color-white, #ffffff);
-    margin-top: 24px;
-}
-
-
-
-.footer-using {
-    padding-bottom: 36px;
-    margin-top: 36px;
-
-}
-
-.footer-text {
-    color: var(--color-white, #ffffff);
-    text-align: center;
-
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 1.188px;
+    line-height: normal;
+    letter-spacing: 0.19px;
+  }
 
-}
+  .socials-list {
+    display: flex;
+    gap: 30px;
 
-.footer-agree {
-    text-decoration-line: underline;
+
+  }
+
+  .socials {
+
+    padding-top: 36px;
+    margin-left: 286px;
+  }
+
+  .logo {
+    padding-top: 48px;
+  }
+
+  .nav2 {
+    padding-top: 36px;
+    margin-left: 209px;
+  }
+
+  .nav1,
+  .tel,
+  .email {
+    display: none;
+  }
+
+  .address {
+    display: block;
+    margin-top: 39px;
+  }
+
+  .nav2,
+  .tel2,
+  .email2 {
+    display: block;
+  }
+
+  .nav2-list {
+    display: flex;
+    gap: 10px;
+
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .tel2 {
+    margin-top: 24px;
+  }
+
+  .email2 {
+    margin-top: 24px;
+  }
+
+  .tel2-email2-wrap {
+    display: flex;
+    gap: 30px;
+  }
 }
