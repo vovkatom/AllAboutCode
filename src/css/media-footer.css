@@ -12,11 +12,11 @@
     }
     .footer-container-social {
         float: right;
-        margin-right: 0;
+         /* margin-left: 90px;  */
     } 
+    
         .footer-for-mobile {
-       
-            padding-bottom: 42px;
+          padding-bottom: 42px;
         }
         .footer-mail {
             display: none;
@@ -38,10 +38,16 @@
         .footer-first {
         display: flex;
         flex-flow: wrap;
+        
             
         }
 
-
+.footer-list {
+    margin-top: 36px;
+    gap: 16px;
+    font-size: 18px;
+    padding: 8px;
+}
 
 .footer-nav {
 
@@ -62,14 +68,20 @@ width: 127px;
     width: 40px;
     height: 40px;
 }
+.footer-url {
 
+    width: 40px;
+    height: 40px;
+}
 
 
 .footer-container-logo {
-order:1;
+order: 1;
+margin-right: 120px;
 }
 .footer-nav {
     order:2;
+    margin-right: 64px;
 
 }
 .footer-container-social {
