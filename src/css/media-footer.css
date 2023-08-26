@@ -2,9 +2,32 @@
     .container-footer {
         min-width: 320px;
         padding: 0 16px;
+        
     }
 
-    .footer-second-mob {}
+        .footer-container-logo {
+        float:left;
+         
+    }
+    .footer-container-social {
+        float: right;
+        margin-right: 0;
+    } 
+        .footer-for-mobile {
+            /*     
+        flex-wrap: wrap-reverse; */
+    
+            /* flex-direction: inline; */
+            /* max-width: 100px;
+        margin: 0; */
+            padding-bottom: 42px;
+        }
+        .footer-mail {
+            display: none;
+        }
+        .footer-first {
+            padding-top: 42px;
+        }
 }
 
 
@@ -13,21 +36,28 @@
     .container-footer {
         min-width: 768px;
         padding: 36px 32px;
+        
     }
 
         .footer-first {
-           flex-wrap: wrap-reverse; 
-           flex-wrap: wrap;  
-            width: calc((100% - 172px) / 3); 
-             flex-wrap: wrap; 
-             display: inline; 
-             max-width: 100px; 
-            margin: 0;
+            /* float: left; */
+           /* flex-wrap: wrap;  */
+        /* flex-wrap: wrap; */
+            /* width: calc((100% - 172px) / 4); */
+             /* flex-wrap: wrap;  */
+             
+              display: flex;
+             /* max-width: 100px;  */
+             flex-flow: wrap;
+            
         }
 
-.footer-container-logo {
-    display: none;
+ /* .footer-container-logo {
+    float:none;
 }
+.footer-container-social {
+    float: none; 
+}  */
 
 .footer-nav {
 
@@ -39,23 +69,58 @@
     font-size: 18px;
         gap: 16px;
 }
+.svg-logo-footer {
+width: 127px;
 
+}
+
+.svg-icon-footer {
+    width: 40px;
+    height: 40px;
+}
+/* .footer-for-mobile {
+display: block;
+} */
+
+
+.footer-container-logo {
+order:1;
+}
+.footer-nav {
+    order:2;
+
+}
+.footer-container-social {
+    order: 3;
+    /* float: right;
+    margin-right: 60px; */
+
+    /* margin-top: 36px; */
+     /* margin-left: 386px;   */
+     /* margin: auto 0;  */
+     /* display: inline;  */
+}
+
+.footer-adress-list {
+    gap: 24px;
+}
+.footer-work-container {
+    gap: 24px;
 }
 
 
 
 
 
+.footer-text {
+    font-size: 16px;
+}
 
 
 
 
 
-
-
-
-
-
+}
 
 
 
