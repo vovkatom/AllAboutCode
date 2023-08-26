@@ -31,13 +31,13 @@
 }
 
 /* Our products Media-START */
-@media (max-width: 375px) {
+@media (max-width: 767px) {
     .product-item:not(:first-child) {
         display: none;
     }
 }
 
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 376px) and (max-width: 1439px) {
     .product-item:nth-child(n+3) {
         display: none;
     }
