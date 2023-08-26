@@ -32,7 +32,6 @@
     background-color: var(--blue-font, #0a224a);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-        /* line-height: normal; */
     font-style: normal;
 }
 
@@ -43,41 +42,23 @@
 
 .footer-first {
 
-    /* flex-wrap: wrap-reverse; */
-    /* display: flex-wrap; */
-    /* flex-wrap: wrap;  */
-    /* width: calc((100% - 172px) / 2); */
-    /* flex-wrap: wrap; */
-        /* display: inline; */
-        /* max-width: 100px; */
-        /* margin: 0; */
+   
 }
-
- 
-
-
-
 
 .container-logo {
-    /* flex-wrap: wrap;
-    display: flex;  */
+    
 }
 .footer-container-logo {
-    /* float: left; */
+   
     display: block;
 }
-/* ----------------------------------------- */
-/* .footer-container-logo {
-   display: flex;
-    
 
-} */
 
 .footer-nav {
 }
 
 .svg-logo-footer {
-        /* margin-top:42px;  */
+       
             
             
 }
@@ -85,17 +66,12 @@
 /* --------------------flex-direction: column;------------------------------------------------ */
 .footer-list {
     
-    /* color: #FFFFFF; */
-    /* gap: 30px; */
+    
     flex-direction: column;
     margin-top: 36px; 
-    /* margin-top: 42px; */
-        /* margin-left: 209px; */
-        /* display: inline-flex; */
+    
         font-size: 16px;
-        /* padding: 8px; */
-        /* gap: 30px; */
-        /* gap: 8px; */
+        
         color: var(--color-white, #ffffff);
         font-weight: 400;
         line-height: 1.5;
@@ -112,26 +88,18 @@
 
 
 .footer-container-social {
-    /* float: right; */
-    /* margin-right: 60px; */
-    
-    /* margin-top: 36px; */
-     /* margin-left: 286px;  */
-    /* margin: auto 0; */
-     /* display: inline; */
+   
      
 }
 
 .list-footer-social {
-    /* flex-wrap: wrap; */
     display: flex;
-    /* gap: 30px; */
     gap: 16px;
-    /* float: left; */
+  
     
 }
 .footer-adress-work {
-    /* display: flex; */
+  
     font-size: 16px;
     letter-spacing: 0.16px;
     line-height: normal;
@@ -143,7 +111,7 @@
 }
 
 .footer-url {
-    /* gap: 30px; */
+   
     width: 40px;
     height: 40px;
 }
@@ -165,7 +133,7 @@
 
 .footer-adress-list {
     /* margin-left: 87px; */
-    margin-top: 39px;
+    margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
     margin-right: 324px;
@@ -182,7 +150,7 @@
 .adress-item {
     display: flex; 
     color: var(--color-white, #ffffff);
-    /* gap: 24px; */
+   
     
 }
 
@@ -195,7 +163,7 @@
 
 
 .footer-work-container {
-    /* margin-left: 60px; */
+  
     margin-top: 36px;
 
 }
@@ -208,8 +176,8 @@
 
 
 .work-hour-footer {
-    /* flex-wrap: wrap;
-    display: flex; */
+   
+    display: flex; 
     color: var(--color-white, #ffffff);
      margin-top: 8px; 
 }
