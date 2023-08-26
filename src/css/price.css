@@ -62,9 +62,9 @@
         .price-text-name {
             transition: all 0.2s linear 0s;
     
-            &:before {
+            &:after {
                 content: "";
-                font-size: 60px;
+                font-size: 12 px;
                 position: absolute;
                 display: flex;
                 align-items: center;
@@ -78,12 +78,29 @@
             }
     
             &:hover {
-                text-indent: +45px;
+                text-indent: +15px;
     
-                &:before {
+                &:after {
                     opacity: 1;
                     text-indent: 0px;
                 }
             }
         }
+
+    .line {
+        width: 0px;
+        height: 4px;
+        background: var(--blue-font, #0A224A);
+    }
+
+    .price-item-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .price-item:hover .line {
+        width: 50px;
+    }
 }
