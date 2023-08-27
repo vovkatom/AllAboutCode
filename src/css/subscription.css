@@ -179,7 +179,7 @@
     width: 1440px;
   }
   .newsletter-container {
-    padding: 0 172px;
+    max-width: 1214px;
     display: flex;
     gap: 100px;
   }
