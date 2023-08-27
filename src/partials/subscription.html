@@ -1,5 +1,5 @@
-<section class="newsletter">
-  <div class="newsletter-container">
+<section id="subscription" class="newsletter">
+  <div class="newsletter-container container">
     <div class="newsletter-form-wrap">
       <h2 class="newsletter-title">Newsletter</h2>
       <p class="newsletter-text">
@@ -15,6 +15,7 @@
             maxlength="16"
             id="user-name"
             placeholder="Name"
+            required
           />
           <svg class="newsletter-error-icon" width="24" height="24">
             <use
@@ -30,6 +31,7 @@
             name="user-email"
             id="user-email"
             placeholder="E-mail"
+            required
           />
           <svg class="newsletter-error-icon" width="24" height="24">
             <use
@@ -90,6 +92,7 @@
           media="(max-width:319px)"
         />
         <img
+          class="newsletter-img"
           src="./images/subscription/newsletter-desk1.jpg"
           alt="sofa picture"
           width="704"

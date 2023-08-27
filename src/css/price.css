@@ -1,0 +1,104 @@
+.price {
+    max-width: 100%;
+    padding-top: 64px;
+}
+
+.price-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid var(--blue-font, #0A224A);
+    border-bottom: 0.5px solid var(--blue-font, #0A224A);
+}
+
+.price-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 0.5px solid var(--blue-font, #0A224A);
+    border-bottom: 0.5px solid var(--blue-font, #0A224A);
+}
+
+.price-text-name {
+    color: var(--blue-font, #0A224A);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px; 
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.price-text-money {
+    color: var(--blue-font, #0A224A);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    margin-top: 9px;
+}
+
+@media screen and (min-width: 768px) {
+    .price {
+        padding-top: 100px;
+    }
+    .price-text-name {
+        font-size: 32px;
+    }    
+    .price-text-money {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .price-container {
+        width: 1096px;
+        margin-left: 112px;
+    }
+        .price-text-name {
+            transition: all 0.2s linear 0s;
+    
+            &:after {
+                content: "";
+                font-size: 12 px;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                right: 50;
+                top: 0;
+                opacity: 0;
+                height: 100%;
+                width: 40px;
+                transition: all 0.2s linear 0s;
+            }
+    
+            &:hover {
+                text-indent: +15px;
+    
+                &:after {
+                    opacity: 1;
+                    text-indent: 0px;
+                }
+            }
+        }
+
+    .line {
+        width: 0px;
+        height: 4px;
+        background: var(--blue-font, #0A224A);
+    }
+
+    .price-item-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .price-item:hover .line {
+        width: 50px;
+    }
+}

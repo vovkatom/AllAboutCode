@@ -1,0 +1,143 @@
+.section-about h1,
+.section-about h2 {
+  background-color: var(--color-light-blue);
+}
+.about {
+  margin: 64px 0;
+  background-color: var(--color-light-blue);
+}
+.about-subtitle {
+  position: relative;
+  color: var(--color-blue);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+.about-subtitle::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 1px;
+  flex-shrink: 0;
+  background-color: var(--color-blue);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about-title {
+  color: var(--color-blue);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  color: var(--color-blue);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.about-list .about-text {
+  text-align: center;
+  width: 170px;
+}
+.about-list {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.about-img {
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.about-list-title {
+  color: var(--color-blue);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  width: 170px;
+}
+@media screen and (max-width: 374px) {
+  .about {
+    margin: 64px 0;
+  }
+  .about-title {
+    font: 22px;
+  }
+  .about-text {
+ font: 12px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .about-title {
+    width: 343px;
+  }
+  .about-text {
+    width: 343px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    padding: 36px 64px;
+  }
+  .about-title {
+    font-size: 32px;
+    line-height: 1.4;
+    width: 576px;
+  }
+  .about-text {
+    font-size: 18px;
+    width: 576px;
+  }
+  .about-list {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .about-img {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-about .container {
+    display: flex;
+    gap: 24px;
+  }
+  .about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 36px 69px 34px 69px;
+  }
+  .about-img {
+    max-width: 536px;
+  }
+  .about-title {
+    width: 622px;
+  }
+  .about-text {
+    width: 622px;
+  }
+}
