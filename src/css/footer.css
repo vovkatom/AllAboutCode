@@ -238,16 +238,31 @@
         padding-top: 36px;
         margin-left: 209px;
     }
-
+    .nav2-list {
+        font-size: 18px;
+    }
     .nav1,
     .tel,
     .email {
         display: none;
     }
+    
 
     .address {
         display: block;
         margin-top: 39px;
+    }
+    .nav2 {
+        margin-left: 87px;
+        
+    }
+    .tel2-email2-wrap {
+        margin-top: 32px;
+    }
+
+
+    .tel2 {
+        margin-top: 24px;
     }
 
     .nav2,
@@ -275,5 +290,8 @@
     .tel2-email2-wrap {
         display: flex;
         gap: 30px;
+    }
+    .footer-using-1 {
+        padding-bottom: 36px;
     }
 }
