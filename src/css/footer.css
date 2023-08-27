@@ -31,7 +31,7 @@
     
     background-color: var(--blue-font, #0a224a);
 } */
-.foot>.container {
+.foot>.container-footer {
 
     display: flex;
     gap: 30px;
@@ -103,7 +103,7 @@
 
 /*-------- 768 tablet ---------------------*/
 @media screen and (min-width: 768px) {
-    .container {
+    .container-footer {
 
         font-size: 19px;
         font-style: normal;
@@ -112,7 +112,7 @@
         letter-spacing: 0.19px;
     }
    
-    .foot>.container {
+    .foot>.container-footer {
         gap: 0;
 
     }
