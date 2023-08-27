@@ -3,7 +3,7 @@
 }
 
 .hero-container {
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
 }
 
 .hero-images {
@@ -88,12 +88,13 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     max-width: 768px;
   }
 
   .hero-container {
-    padding-bottom: 160px;
+    padding-top: 64px;
+    padding-bottom: 172px;
   }
 
   .first-image {
@@ -136,10 +137,12 @@
   }
 
   .hero-content {
-    padding-top: 0;
+    /* padding-top: 120px; */
+    width: 100%;
   }
 
   .hero-title {
+    padding-top: 60px;
     max-width: 648px;
     font-size: 50px;
     margin-bottom: 0;
@@ -148,7 +151,7 @@
   .hero-text {
     max-width: 312px;
     padding-top: 410px;
-    padding-bottom: 8px;
+    padding-bottom: 14px;
     font-size: 18px;
     margin-bottom: 16px;
   }
@@ -163,12 +166,18 @@
 
   .hero {
     max-width: 1440px;
-    height: 530px;
-    margin-bottom: 100px;
+    /* height: 590px; */
+    /* max-height: 100%; */
+    /* margin-bottom: 100px; */
+    /* padding-bottom: 500px; */
+    /* position: relative; */
+  /* padding-bottom: 14px; */
   }
 
   .hero-container {
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
+
+    padding-bottom: 100px;
   }
 
   .first-image {
@@ -227,11 +236,12 @@
   }
 
   .hero-title {
-    max-width: 648px;
-    font-size: 50px;
+    /* max-width: 648px;
+    font-size: 50px; */
   }
 
   .hero-text {
+    margin-bottom: 8px;
     margin-left: 1008px;
     padding-top: 252px;
   }
