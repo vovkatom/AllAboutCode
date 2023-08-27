@@ -1,0 +1,155 @@
+/*----------------------------*/
+.logo,
+.nav1,
+.address,
+.tel,
+.tel2,
+.email,
+.email2,
+.nav2,
+.socials {
+    color: var(--color-white, #ffffff);
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    pading-left: 127px;
+    outline: 1px solid tomato;
+}
+.socials-list {
+    display: flex;
+    gap: 16px;
+
+
+}
+
+.foot>.container {
+
+    display: flex;
+    gap: 30px;
+    background-color: var(--blue-font, #0a224a);
+}
+
+.nav2,
+.email,
+.tel2,
+.email2 {
+    display: none;
+}
+
+/*-------- 768 tablet ---------------------*/
+@media screen and (min-width: 768px) {
+    .nav1 {
+        display: none;
+    }
+
+    .nav2,
+    .email {
+        display: block;
+    }
+
+    .nav2 {
+        padding-top: 36px;
+        margin-left: 120px;
+    }
+
+    .logo {
+        padding-top: 48px;
+    }
+
+    .socials-list {
+        display: flex;
+        gap: 16px;
+    }
+
+    .socials {
+
+        padding-top: 36px;
+        margin-left: 64px;
+    }
+
+    .address {
+        margin-top: 32px;
+    }
+
+    .tel {
+        margin-top: 64px;
+    }
+
+    .email {
+        margin-top: 24px;
+    }
+}
+
+
+
+/*-------- 1440 desktop ---------------------*/
+@media screen and (min-width: 1440px) {
+    .container {
+        font-family: Roboto;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.19px;
+    }
+
+    .socials-list {
+        display: flex;
+        gap: 30px;
+
+
+    }
+
+    .socials {
+
+        padding-top: 36px;
+        margin-left: 286px;
+    }
+
+    .logo {
+        padding-top: 48px;
+    }
+
+    .nav2 {
+        padding-top: 36px;
+        margin-left: 209px;
+    }
+
+    .nav1,
+    .tel,
+    .email {
+        display: none;
+    }
+
+    .address {
+        display: block;
+        margin-top: 39px;
+    }
+
+    .nav2,
+    .tel2,
+    .email2 {
+        display: block;
+    }
+
+    .nav2-list {
+        display: flex;
+        gap: 10px;
+
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .tel2 {
+        margin-top: 24px;
+    }
+
+    .email2 {
+        margin-top: 24px;
+    }
+
+    .tel2-email2-wrap {
+        display: flex;
+        gap: 30px;
+    }
+}
