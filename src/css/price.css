@@ -57,48 +57,28 @@
         width: 1096px;
         margin-left: 112px;
     }
-        .price-text-name {
-            transition: all 0.2s linear 0s;
-    
-            &:after {
-                content: "";
-                font-size: 12 px;
-                position: absolute;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                right: 50;
-                top: 0;
-                opacity: 0;
-                height: 100%;
-                width: 40px;
-                transition: all 0.2s linear 0s;
-            }
-    
-            &:hover {
-                text-indent: +15px;
-    
-                &:after {
-                    opacity: 1;
-                    text-indent: 0px;
-                }
-            }
-        }
-
-    .line {
-        width: 0px;
-        height: 4px;
-        background: var(--blue-font, #0A224A);
+    .price-item .price-text-name {
+        position: relative;
+        padding-left: 20px;
+        cursor: pointer;
+        transition: padding-left 0.5s ease;
     }
-
-    .price-item-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 6px;
-    }
-
-    .price-item:hover .line {
+    .price-item .price-text-name:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
         width: 50px;
+        height: 3px;
+        background-color: #0A224A;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    .price-item .price-text-name:hover {
+        padding-left: 70px;
+    }
+    .price-item .price-text-name:hover:before {
+        opacity: 1;
     }
 }
