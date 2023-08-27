@@ -24,7 +24,6 @@
     color: var(--blue-font, #0A224A);
     font-size: 28px;
     font-weight: 400;
-    line-height: 1.4; 
     text-transform: uppercase;
     position: relative;
     display: inline-block;

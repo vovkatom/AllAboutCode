@@ -10,6 +10,8 @@
 @import url('./footer.css');
 @import url('./burger-menu.css');
 
+@import url('animate.css');
+
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/roboto.ttf') format('truetype');

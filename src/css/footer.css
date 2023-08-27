@@ -1,0 +1,304 @@
+/*----------------------------*/
+.logo,
+.nav1,
+.address,
+.tel,
+.tel2,
+.email,
+.email2,
+.nav2,
+.socials,
+.footer-using-1,
+.footer-using-2 {
+    color: var(--color-white, #ffffff);
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /* padding-right: 127px; */
+    /* outline: 1px solid tomato; */
+    
+}
+
+.socials-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 120px;
+
+
+
+}
+.footer-using-1 {
+    position: relative;
+        margin-bottom: -4px;
+}
+/* .foot>.foot-cont{
+    
+    background-color: var(--blue-font, #0a224a);
+} */
+.foot>.container-footer {
+    
+    display: flex;
+    gap: 30px;
+    background-color: var(--blue-font, #0a224a);
+    
+}
+
+.logo {
+    padding-top: 16px;
+}
+
+.nav2,
+.email,
+.tel2,
+.email2,
+.footer-using-2 {
+    display: none;
+
+}
+
+.socials {
+    padding-top: 16px;
+
+}
+
+.adress {
+    font-size: 15px;
+    margin-bottom: 36px;
+}
+
+.nav1-list {
+    gap: 8px;
+    margin-bottom: 36px;
+}
+
+.footer-work-link {
+    font-style: normal;
+}
+
+.footer-work {
+    font-style: normal;
+}
+
+.footer-using-1 {
+    background-color: var(--blue-font, #0a224a);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+
+}
+
+.footer-text {
+    /* margin-top: 479px; */
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    color: var(--color-white, #ffffff);
+    margin-left: 16px;
+
+
+}
+
+.footer-agree {
+    text-decoration-line: underline;
+}
+
+/*-------- 768 tablet ---------------------*/
+@media screen and (min-width: 768px) {
+    .container-footer {
+
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        /* line-height: normal; */
+        letter-spacing: 0.19px;
+    }
+   
+    .foot>.container-footer {
+        gap: 0;
+
+    }
+
+    .footer-adress-list,
+    .footer-mail {
+        font-size: 19px;
+    }
+
+
+
+    .nav1 {
+        display: none;
+    }
+
+    .nav2,
+    .email {
+        display: block;
+    }
+
+    .nav2 {
+        padding-top: 36px;
+        margin-left: 120px;
+    }
+
+    .nav2-list {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 18px;
+        gap: 24px;
+    }
+    .link-work {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .footer-adress-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .svg-logo-footer {
+        width: 127px;
+
+    }
+
+    .logo {
+        padding-top: 48px;
+
+    }
+
+    .socials-list {
+        gap: 16px;
+
+    }
+
+    .svg-icon-footer {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .socials {
+
+        padding-top: 36px;
+        margin-left: 64px;
+        margin-bottom: 64px;
+        /* margin-right: 36px; */
+    }
+
+    .footer-work-link {
+        font-size: 18px;
+
+    }
+
+    .address {
+        margin-top: 32px;
+        gap: 24px;
+
+    }
+
+    .footer-adress {
+        gap: 24px;
+    }
+
+    .tel {
+        margin-top: 64px;
+    }
+
+    .email {
+        margin-top: 24px;
+        margin-bottom: 64px;
+    }
+
+}
+
+
+
+/*-------- 1440 desktop ---------------------*/
+@media screen and (min-width: 1440px) {
+
+    .socials-list {
+        display: flex;
+        gap: 30px;
+
+
+    }
+
+    .socials {
+
+        padding-top: 36px;
+        
+    }
+
+    .logo {
+        padding-top: 48px;
+    }
+
+    .nav2 {
+        padding-top: 36px;
+        margin-left: 209px;
+    }
+    
+    .nav1,
+    .tel,
+    .email {
+        display: none;
+    }
+    
+
+    .address {
+        display: block;
+        margin-top: 39px;
+    }
+    .nav2 {
+        margin-left: 96px;
+        
+        
+    }
+    .tel2-email2-wrap {
+        margin-top: 32px;
+        margin-right: 82px;
+    }
+
+
+    .tel2 {
+        margin-top: 24px;
+        
+    }
+
+    .nav2,
+    .tel2,
+    .email2 {
+        display: block;
+    }
+
+    .nav2-list {
+        display: flex;
+        gap: 30px;
+        font-size: 19px;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .tel2 {
+        margin-top: 24px;
+    }
+
+    .email2 {
+        margin-top: 24px;
+        padding-right: 150px;
+    }
+
+    .tel2-email2-wrap {
+        display: flex;
+        gap: 30px;
+    }
+    .footer-using-1 {
+        padding-bottom: 36px;
+        /* outline: 1px solid var(--blue-font, #0a224a);;
+        outline-color: var(--blue-font, #0a224a); */
+    }
+}

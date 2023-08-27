@@ -15,10 +15,21 @@
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
+  const scrollToAnchor = () => {
+    toggleMenu();
+    const anchor = document.getElementById("our-products");
+    anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   openMenuBtn.addEventListener("click", toggleMenu);
   closeMenuBtn.addEventListener("click", toggleMenu);
 
-  // Close the mobile menu on wider screens if the device orientation changes
+  // Обробка події для всіх посилань з класом .js-scroll-to-anchor
+  const scrollToAnchorLinks = document.querySelectorAll(".js-scroll-to-anchor");
+  scrollToAnchorLinks.forEach(link => {
+    link.addEventListener("click", scrollToAnchor);
+  });
+
   window.matchMedia("(min-width: 768px)").addEventListener("change", (e) => {
     if (!e.matches) return;
     mobileMenu.classList.remove("is-open");
