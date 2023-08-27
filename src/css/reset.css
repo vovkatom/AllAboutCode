@@ -44,6 +44,11 @@ img {
 }
 
 .container {
+<<<<<<< Updated upstream
+=======
+  /* animation: rubberBand;  */
+  /* animation-duration: 2s; */
+>>>>>>> Stashed changes
   min-width: 320px;
   max-width: 375px;
   margin-left: auto;
