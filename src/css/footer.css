@@ -32,7 +32,7 @@
     background-color: var(--blue-font, #0a224a);
 } */
 .foot>.container-footer {
-
+    
     display: flex;
     gap: 30px;
     background-color: var(--blue-font, #0a224a);
