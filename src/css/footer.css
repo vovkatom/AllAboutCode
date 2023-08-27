@@ -7,15 +7,14 @@
 .email,
 .email2,
 .nav2,
-.socials,
-.footer-using-1,
-.footer-using-2 {
+.socials {
     color: var(--color-white, #ffffff);
     padding: 0;
     margin-top: 0;
     margin-bottom: 20px;
     /* padding-right: 127px; */
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
+    
 }
 
 .socials-list {
@@ -26,12 +25,16 @@
 
 
 }
-
+/* .foot>.foot-cont{
+    
+    background-color: var(--blue-font, #0a224a);
+} */
 .foot>.container {
 
     display: flex;
     gap: 30px;
     background-color: var(--blue-font, #0a224a);
+    
 }
 
 .logo {
@@ -98,7 +101,7 @@
 
 /*-------- 768 tablet ---------------------*/
 @media screen and (min-width: 768px) {
-    .container {
+    .container-footer {
 
         font-size: 19px;
         font-style: normal;
@@ -107,7 +110,7 @@
         letter-spacing: 0.19px;
     }
    
-    .foot>.container {
+    .foot>.container-footer {
         gap: 0;
 
     }
@@ -227,7 +230,7 @@
     .socials {
 
         padding-top: 36px;
-        margin-left: 286px;
+        /* margin-left: 286px; */
     }
 
     .logo {
@@ -238,9 +241,7 @@
         padding-top: 36px;
         margin-left: 209px;
     }
-    .nav2-list {
-        font-size: 18px;
-    }
+    
     .nav1,
     .tel,
     .email {
@@ -253,16 +254,21 @@
         margin-top: 39px;
     }
     .nav2 {
-        margin-left: 87px;
+        margin-left: 96px;
+        
         
     }
     .tel2-email2-wrap {
         margin-top: 32px;
+        margin-right: 82;
     }
-
+.footer-adress-list{
+    /* margin-left: 87px; */
+}
 
     .tel2 {
         margin-top: 24px;
+        
     }
 
     .nav2,
@@ -273,8 +279,8 @@
 
     .nav2-list {
         display: flex;
-        gap: 10px;
-
+        gap: 30px;
+        font-size: 19px;
         padding: 0;
         margin-top: 0;
     }
@@ -285,6 +291,7 @@
 
     .email2 {
         margin-top: 24px;
+        padding-right: 150px;
     }
 
     .tel2-email2-wrap {
@@ -293,5 +300,7 @@
     }
     .footer-using-1 {
         padding-bottom: 36px;
+        /* outline: 1px solid var(--blue-font, #0a224a);;
+        outline-color: var(--blue-font, #0a224a); */
     }
 }
