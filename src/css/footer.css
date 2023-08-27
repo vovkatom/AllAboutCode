@@ -122,10 +122,6 @@
 
     }
 
-    .link {
-        /* gap: 24px; */
-    }
-
     .footer-adress-list,
     .footer-mail {
         font-size: 19px;
@@ -163,8 +159,6 @@
         flex-wrap: wrap;
         gap: 24px;
     }
-
-    .nav2 {}
 
     .svg-logo-footer {
         width: 127px;
@@ -219,7 +213,6 @@
         margin-bottom: 64px;
     }
 
-    .footer-using-1 {}
 }
 
 
@@ -269,9 +262,7 @@
         margin-top: 32px;
         margin-right: 82;
     }
-.footer-adress-list{
-    /* margin-left: 87px; */
-}
+
 
     .tel2 {
         margin-top: 24px;
