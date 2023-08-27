@@ -27,6 +27,10 @@
 
 
 }
+.footer-using-1 {
+    position: relative;
+        margin-bottom: -4px;
+}
 /* .foot>.foot-cont{
     
     background-color: var(--blue-font, #0a224a);
@@ -232,7 +236,7 @@
     .socials {
 
         padding-top: 36px;
-        /* margin-left: 286px; */
+        
     }
 
     .logo {
