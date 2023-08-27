@@ -7,7 +7,9 @@
 .email,
 .email2,
 .nav2,
-.socials {
+.socials,
+.footer-using-1,
+.footer-using-2 {
     color: var(--color-white, #ffffff);
     padding: 0;
     margin-top: 0;
@@ -101,7 +103,7 @@
 
 /*-------- 768 tablet ---------------------*/
 @media screen and (min-width: 768px) {
-    .container-footer {
+    .container {
 
         font-size: 19px;
         font-style: normal;
@@ -110,7 +112,7 @@
         letter-spacing: 0.19px;
     }
    
-    .foot>.container-footer {
+    .foot>.container {
         gap: 0;
 
     }
