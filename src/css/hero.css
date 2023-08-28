@@ -34,7 +34,8 @@
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  padding-bottom: 14px;
+  /* margin-bottom: 14px; */
 }
 
 .hero-text {
@@ -88,7 +89,7 @@
   }
 
   .hero-container {
-    padding-top: 64px;
+    padding-top: 60px;
     padding-bottom: 172px;
   }
 
@@ -133,14 +134,15 @@
 
   .hero-content {
     padding-top: 0;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .hero-title {
     padding-top: 60px;
     max-width: 648px;
     font-size: 50px;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+    padding-bottom: 0px;
   }
 
   .hero-text {
