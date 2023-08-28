@@ -10,7 +10,7 @@
  * animation heartbeat
  * ----------------------------------------
  */
- @keyframes heartbeat {
+@keyframes heartbeat {
   from {
     transform: scale(1);
     transform-origin: center center;
@@ -34,9 +34,8 @@
   }
 }
 
-
 .heartbeat {
-	animation: heartbeat 2s ease-in-out infinite both;
+  animation: heartbeat 2s ease-in-out infinite both;
 }
 
 .hero {
@@ -266,12 +265,12 @@
   }
 
   .hero-text {
-    margin-bottom: 10px;
     margin-left: 1008px;
-    padding-top: 252px;
+    padding-top: 242px;
   }
 
   .hero-button {
-    margin-left: 1008px;
+    position: absolute;
+    right: 148px;
   }
 }
