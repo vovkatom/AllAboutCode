@@ -13,6 +13,8 @@
 
 .menu-container.is-open {
   transform: translateX(0);
+  animation: rollIn;
+  animation-duration: 0.5s; 
 }
 
 .burger-navigation {
