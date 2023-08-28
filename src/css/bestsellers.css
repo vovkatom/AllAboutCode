@@ -60,9 +60,6 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    .bestsellers-form-wrap {
-        width: 728px;
-    }
     .bestsellers-title {
         font-size: 32px;
     }
@@ -96,28 +93,28 @@
         max-width: 1440px;
         padding: 0 60px;
     }
+    .bestsellers-container {
+        width: 1216px;
+    }
     .best-cont {
-        width: 1120px;
         display: flex;
-        margin-left: 112px;
         gap: 24px;
     }
-    .bestsellers-form-wrap {
-        padding: 0px;
+    .left-part {
+        margin: 0;
     }
     .bestsellers-list {
         display: flex;
         flex-wrap: wrap;
         gap: 30px 20px;
     }
+    .bestsellers-list {
+        margin: 0;
+    }
     .bestsellers-item {
         flex-basis: calc((100% - 20px) / 2);
-        width: 258px;
-    }
-    .left-part {
-        width: 536px;
     }
     .right-part {
-        width: 536px;
+        width: 709px;
     }
 }
