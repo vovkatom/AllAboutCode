@@ -17,7 +17,6 @@
 
   const scrollToAnchor = () => {
     toggleMenu();
-    const anchor = document.getElementById("our-products");
     anchor.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 

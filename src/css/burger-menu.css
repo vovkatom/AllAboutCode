@@ -43,6 +43,7 @@
   border: none;
   border-radius: 50%;
   outline: none;
+  font-size: 0;
 }
 
 @media only screen and (min-width: 375px) {
