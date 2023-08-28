@@ -24,7 +24,7 @@
 
   const scrollToAnchor = () => {
     toggleMenu();
-    anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+    // anchor.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   openMenuBtn.addEventListener("click", toggleMenu);
