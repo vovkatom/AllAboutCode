@@ -1,3 +1,9 @@
+.clients-reviews {
+  background-color: var(--color-light-blue);
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
 .cl-rev-title {
   font-size: 28px;
   font-weight: 400;
@@ -5,12 +11,6 @@
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-}
-
-.clients-reviews .container {
-  background-color: var(--color-light-blue);
-  padding-top: 36px;
-  padding-bottom: 36px;
 }
 
 .cl-rev-list {

@@ -3,18 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Modern and minimalist furniture for you</title>
+    <meta name="description" content="Add a touch of elegance to your space with handcrafted furniture pieces"/>
+    <meta name="owner" content="minimal.furniture@gmail.com"/>
+    <meta name="author" lang="en" content="Vladimir, Vladislav, Olena, Sergey, Marina, Andrey, Katerina, Antonina"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="resource-type" content="Homepage"/>
+    <meta http-equiv="content-language" content="en"/>
+    <meta name="copyright" content="Vladimir, Vladislav, Olena, Sergey, Marina, Andrey, Katerina, Antonina"/>
+    <meta http-equiv="expires" content="29.08.2023"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    /> -->
+
+    <link 
+      rel="preload" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      as="style" 
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    
     <title>Minimal</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -35,5 +51,34 @@
     <load ="partials/burger-menu.html" />
 
     <script type="module" src="/mobile-menu.js"></script>
+
+    <script>
+      // Обработчик события клика для всех якорных ссылок и кнопок
+      const scrollToTarget = targetId => {
+        const target = document.querySelector(targetId);
+        if (target) {
+          const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      };
+    
+      document.querySelectorAll('a[href^="#"], button[data-target^="#"]').forEach(element => {
+        element.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href') || this.getAttribute('data-target');
+          scrollToTarget(targetId);
+        });
+      });
+    </script>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous">
+    </script>
   </body>
 </html>
