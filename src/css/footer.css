@@ -18,11 +18,15 @@
     /* outline: 1px solid tomato; */
     
 }
-
+.foot{
+background-color: var(--blue-font, #0a224a);
+padding-top: 36px;
+padding-bottom: 36px;
+}
 .socials-list {
     display: flex;
     gap: 16px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 
 
 
@@ -39,12 +43,12 @@
     
     display: flex;
     gap: 30px;
-    background-color: var(--blue-font, #0a224a);
+    /* background-color: var(--blue-font, #0a224a); */
     
 }
 
 .logo {
-    padding-top: 16px;
+    /* padding-top: 16px; */
 }
 
 .nav2,
@@ -56,7 +60,7 @@
 }
 
 .socials {
-    padding-top: 16px;
+    /* padding-top: 16px; */
 
 }
 
@@ -79,13 +83,14 @@
 }
 
 .footer-using-1 {
-    background-color: var(--blue-font, #0a224a);
+    /* background-color: var(--blue-font, #0a224a); */
     text-align: center;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    
 
 
 }
@@ -103,6 +108,16 @@
 
 .footer-agree {
     text-decoration-line: underline;
+}
+
+
+/* -------------------------375-------------------------- */
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+   .foot {
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
 }
 
 /*-------- 768 tablet ---------------------*/
@@ -142,7 +157,7 @@
     }
 
     .nav2 {
-        padding-top: 36px;
+        /* padding-top: 36px; */
         margin-left: 120px;
     }
 
@@ -171,7 +186,7 @@
     }
 
     .logo {
-        padding-top: 48px;
+        /* padding-top: 48px; */
 
     }
 
@@ -188,7 +203,7 @@
 
     .socials {
 
-        padding-top: 36px;
+        /* padding-top: 36px; */
         margin-left: 64px;
         margin-bottom: 64px;
         /* margin-right: 36px; */
@@ -235,16 +250,16 @@
 
     .socials {
 
-        padding-top: 36px;
+        /* padding-top: 36px; */
         
     }
 
     .logo {
-        padding-top: 48px;
+        /* padding-top: 48px; */
     }
 
     .nav2 {
-        padding-top: 36px;
+        /* padding-top: 36px; */
         margin-left: 209px;
     }
     
@@ -305,7 +320,7 @@
         gap: 30px;
     }
     .footer-using-1 {
-        padding-bottom: 36px;
+        /* padding-bottom: 36px; */
         /* outline: 1px solid var(--blue-font, #0a224a);;
         outline-color: var(--blue-font, #0a224a); */
     }
