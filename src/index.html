@@ -42,28 +42,25 @@
     <script type="module" src="/mobile-menu.js"></script>
 
     <script>
-      document.querySelectorAll('.scroll-link').forEach(function(link) {
-        link.addEventListener('click', function(event) {
-          event.preventDefault();
-          var targetId = this.getAttribute('href');
-          var target = document.querySelector(targetId);
-          if (target) {
-            window.scrollTo({
-              top: target.offsetTop,
-              behavior: 'smooth'
-            });
-          }
+      // Обработчик события клика для всех якорных ссылок и кнопок
+      const scrollToTarget = targetId => {
+        const target = document.querySelector(targetId);
+        if (target) {
+          const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      };
+    
+      document.querySelectorAll('a[href^="#"], button[data-target^="#"]').forEach(element => {
+        element.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href') || this.getAttribute('data-target');
+          scrollToTarget(targetId);
         });
       });
-    </script>
-
-    <script>
-      function scrollToAnchor(anchorId) {
-        var anchor = document.getElementById(anchorId);
-          if (anchor) {
-            anchor.scrollIntoView({ behavior: 'smooth' });
-          }
-      }
     </script>
 
     <script
