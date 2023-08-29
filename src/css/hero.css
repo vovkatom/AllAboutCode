@@ -26,39 +26,6 @@
   animation: heartbeat 2s ease-in-out infinite both;
 }
 
-.hero,
-.hero1 {
-  position: relative;
-}
-
-.hero-container {
-  margin-bottom: 64px;
-}
-
-.hero-images {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-}
-
-.hero-image {
-  background-repeat: no-repeat;
-}
-
-.wider-image,
-.last-image {
-  display: none;
-}
-
-.hero-content {
-  z-index: 1;
-  padding-top: 140px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-align: left;
-}
-
 .hero-title {
   max-width: 300px;
   color: var(--blue-font, #0a224a);
@@ -67,7 +34,6 @@
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
-
 }
 
 .hero-text {
@@ -119,7 +85,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .hero-container {
     padding-top: 0;
     align-items: center;
@@ -137,18 +102,17 @@
     (min-resolution: 2dppx) {
     .hero-container {
       background-image: url('../images/hero/hero-tab1-2x.jpg'),
-      url('../images/hero/hero-tab2-2x.jpg');
-    background-position: left bottom, right bottom;
+        url('../images/hero/hero-tab2-2x.jpg');
+      background-position: left bottom, right bottom;
     }
   }
 
-  .hero.container,
-  .hero1 {
+  .hero.container {
     padding-top: 60px;
     padding-bottom: 100px;
   }
 
-    .hero-content {
+  .hero-content {
     padding-top: 0;
   }
 
@@ -173,8 +137,7 @@
     height: 530px;
     width: 1320px;
     background-image: url('../images/hero/hero1.jpg'),
-      url('../images/hero/hero2.jpg'),
-      url('../images/hero/hero3.jpg');
+      url('../images/hero/hero2.jpg'), url('../images/hero/hero3.jpg');
     background-position: left bottom, center bottom, right top;
 
     background-size: 23.5%, 50%, 23.5%;
@@ -184,24 +147,17 @@
     padding-top: 100px;
   }
 
-
   .hero-images {
     width: 100%;
     justify-content: center;
     align-items: flex-end;
   }
 
-  .hero,
-  .hero1 {
+  .hero {
     max-width: 1440px;
     height: 530px;
     margin-bottom: 100px;
   }
-
-  .hero-container {
-    padding-bottom: 0;
-  }
-
 
   .hero-text {
     display: flex;
