@@ -145,30 +145,29 @@
     background-image: url('../images/hero/hero1.jpg'),
       url('../images/hero/hero2.jpg'), url('../images/hero/hero3.jpg');
     background-position: left bottom, center bottom, right top;
-
     background-size: 23.5%, 50%, 23.5%;
   }
 
-  .hero.container {
-    padding-top: 100px;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: url('../images/hero/hero1-2x.jpg'),
+      url('../images/hero/hero2-2x.jpg'), url('../images/hero/hero3-2x.jpg');
+    }
   }
 
-  .hero-images {
-    width: 100%;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
-  .hero {
+    .hero {
     max-width: 1440px;
-    height: 530px;
-    margin-bottom: 100px;
+    height: 590px;
   }
 
   .hero-text {
     display: flex;
     margin-left: 1008px;
     padding-top: 252px;
+    margin-bottom: 0;
+
   }
 
   .hero-button {
