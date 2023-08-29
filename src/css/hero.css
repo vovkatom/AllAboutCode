@@ -87,12 +87,11 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .hero {
     padding-top: 60px;
     padding-bottom: 170px;
   }
-  
+
   .hero-container.container {
     padding-left: 0;
     padding-right: 0;
@@ -152,23 +151,7 @@
     (min-resolution: 2dppx) {
     .hero-container {
       background-image: url('../images/hero/hero1-2x.jpg'),
-      url('../images/hero/hero2-2x.jpg'), url('../images/hero/hero3-2x.jpg');
+        url('../images/hero/hero2-2x.jpg'), url('../images/hero/hero3-2x.jpg');
     }
-  }
-
-  .hero {
-    padding-bottom: 100px;
-  }
-
-  .hero-text {
-    display: flex;
-    margin-left: 1008px;
-    padding-top: 252px;
-    margin-bottom: 0;
-
-  }
-
-  .hero-button {
-    margin-left: 1008px;
   }
 }
