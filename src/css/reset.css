@@ -30,6 +30,10 @@ img {
   height: auto;
 }
 
+.hidden {
+  display: none; /* Приховати текстовий контент */
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -52,8 +56,18 @@ img {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
-  /* outline: 2px solid red; */
-  
+
+}
+.redline {
+  outline: 2px solid red;
+}
+
+.greenline {
+  outline: 2px solid green;
+}
+
+.blackline {
+  outline: 2px solid black;
 }
 
 @media screen and (min-width: 768px) {

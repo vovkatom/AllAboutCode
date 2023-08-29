@@ -58,6 +58,7 @@ padding-bottom: 36px;
 .email2,
 .footer-using-2 {
     display: none;
+
 }
 
 .socials {
@@ -137,10 +138,6 @@ padding-bottom: 36px;
 
     }
 
-    .link {
-        /* gap: 24px; */
-    }
-
     .footer-adress-list,
     .footer-mail {
         font-size: 19px;
@@ -178,8 +175,6 @@ padding-bottom: 36px;
         flex-wrap: wrap;
         gap: 24px;
     }
-
-    .nav2 {}
 
     .svg-logo-footer {
         width: 127px;
@@ -234,7 +229,6 @@ padding-bottom: 36px;
         margin-bottom: 64px;
     }
 
-    .footer-using-1 {}
 }
 
 
@@ -285,9 +279,7 @@ padding-bottom: 36px;
         margin-top: 32px;
         margin-right: 82px;
     }
-.footer-adress-list{
-    /* margin-left: 87px; */
-}
+
 
     .tel2 {
         margin-top: 24px;

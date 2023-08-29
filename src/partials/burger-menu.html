@@ -1,7 +1,7 @@
 <div class="menu-container js-menu-container" id="mobile-menu">
-  <nav class="navigation">
+  <nav>
     <div class="burger-navigation">
-      <a class="header-logo link" href="./index.html">
+      <a class="header-logo" href="./index.html">
         <svg class="header-svg" width="100" height="16">
           <use href="./images/header/icons.svg#logo"></use>
         </svg>
@@ -10,36 +10,31 @@
       <button class="menu-toggle js-close-menu">
         <svg class="modal-svg" width="32" height="32">
           <use href="./images/header/icons.svg#close-btn"></use>
-        </svg>
+        </svg>Close
       </button>
     </div>
 
-    <ul class="mobile-menu">
-      <li class="mobile-menu-item">
-        <a href="#about" class="js-close-menu">About us</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#our-products" class="js-close-menu">Our products</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#price" class="js-close-menu">Prices</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#bestsellers" class="js-close-menu">Bestsellers</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#clients-reviews" class="js-close-menu">Reviews</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a href="#footer" class="js-close-menu">Contacts</a>
-      </li>
-    </ul>
+    <div class="js-menu-container" id="modal">
+      <ul class="mobile-menu">
+        <li class="mobile-menu-item">
+          <a href="#about" class="js-scroll-to-anchor">About us</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#our-products" class="js-scroll-to-anchor">Our products</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#price" class="js-scroll-to-anchor">Prices</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#bestsellers" class="js-scroll-to-anchor">Bestsellers</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#clients-reviews" class="js-scroll-to-anchor">Reviews</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#footer" class="js-scroll-to-anchor">Contacts</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </div>
-
-<script
-  defer
-  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-  crossorigin="anonymous"
-></script>

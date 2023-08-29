@@ -4,24 +4,40 @@
   const closeMenuBtn = document.querySelector(".js-close-menu");
 
   const toggleMenu = () => {
-    const isMenuOpen =
-      openMenuBtn.getAttribute("aria-expanded") === "true" || false;
+    const isMenuOpen = mobileMenu.classList.contains("is-open");
+    
+    if (isMenuOpen) {
+      mobileMenu.classList.remove("is-open");
+      mobileMenu.classList.add("is-closed");
+    } else {
+      mobileMenu.classList.remove("is-closed");
+      mobileMenu.classList.add("is-open");
+    }
+
     openMenuBtn.setAttribute("aria-expanded", !isMenuOpen);
-    mobileMenu.classList.toggle("is-open");
 
     const scrollLockMethod = !isMenuOpen
-      ? "disableBodyScroll"
-      : "enableBodyScroll";
-    bodyScrollLock[scrollLockMethod](document.body);
+      ? bodyScrollLock.disableBodyScroll
+      : bodyScrollLock.enableBodyScroll;
+    scrollLockMethod(document.body);
+  };
+
+  const scrollToAnchor = () => {
+    toggleMenu();
+    // anchor.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   openMenuBtn.addEventListener("click", toggleMenu);
   closeMenuBtn.addEventListener("click", toggleMenu);
 
-  // Close the mobile menu on wider screens if the device orientation changes
+  const scrollToAnchorLinks = document.querySelectorAll(".js-scroll-to-anchor");
+  scrollToAnchorLinks.forEach(link => {
+    link.addEventListener("click", scrollToAnchor);
+  });
+
   window.matchMedia("(min-width: 768px)").addEventListener("change", (e) => {
     if (!e.matches) return;
-    mobileMenu.classList.remove("is-open");
+    mobileMenu.classList.remove("is-open", "is-closed");
     openMenuBtn.setAttribute("aria-expanded", false);
     bodyScrollLock.enableBodyScroll(document.body);
   });
