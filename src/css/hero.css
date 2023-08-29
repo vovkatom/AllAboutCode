@@ -42,14 +42,6 @@
   position: relative;
 }
 
-.heartbeat {
-  animation: heartbeat 2s ease-in-out infinite both;
-}
-
-.hero {
-  position: relative;
-}
-
 .hero-images {
   display: flex;
   align-items: baseline;
@@ -110,23 +102,20 @@
   background-color: var(--color-hover, #061835);
 }
 
-.hero-container {
-  background-repeat: no-repeat;
-  padding-top: 140px;
-}
-
 @media screen and (min-width: 320px) {
-  .hero-container {
+  .first-image {
     align-items: center;
-    height: 716px;
     width: 766px;
+    height: 716px;
     background-image: url('../images/hero/hero-mob.jpg');
+    margin-left: -16px;
+    margin-right: -16px;
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-container {
+    .first-image {
       align-items: center;
       background-size: contain;
       background-image: url('../images/hero/hero-mob-2x.jpg');
@@ -144,26 +133,46 @@
     padding-bottom: 172px;
   }
 
-    background-size: 45%, 50%;
+  .first-image {
+    display: flex;
+    align-items: flex-end;
+    max-height: 326px;
+
+    width: 366px;
+    height: 550px;
+    background-image: url('../images/hero/hero-tab1.jpg');
+    margin-left: 4px;
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-container {
-      background-image: url('../images/hero/hero-tab1-2x.jpg'),
-      url('../images/hero/hero-tab2-2x.jpg');
-    background-position: left bottom, right bottom;
+    .first-image {
+      align-items: center;
+      background-size: contain;
+      background-image: url('../images/hero/hero-tab1-2x.jpg');
     }
   }
 
-  .hero.container,
-  .hero1 {
-    padding-top: 60px;
-    padding-bottom: 100px;
+  .wider-image {
+    display: flex;
+    width: 378px;
+    height: 522px;
+    background-image: url('../images/hero/hero-tab2.jpg');
+    background-size: cover;
   }
 
-    .hero-content {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .wider-image {
+      align-items: center;
+      background-size: contain;
+      background-image: url('../images/hero/hero-tab2-2x.jpg');
+    }
+  }
+
+  .hero-content {
     padding-top: 0;
     /* width: 100%; */
   }
@@ -183,35 +192,16 @@
     font-size: 18px;
     margin-bottom: 16px;
   }
-
+}
 
 @media screen and (min-width: 1440px) {
-  .hero-container {
-    padding-top: 0;
-    align-items: center;
-    height: 530px;
-    width: 1320px;
-    background-image: url('../images/hero/hero1.jpg'),
-      url('../images/hero/hero2.jpg'),
-      url('../images/hero/hero3.jpg');
-    background-position: left bottom, center bottom, right top;
-
-    background-size: 23.5%, 50%, 23.5%;
-  }
-
-  .hero.container {
-    padding-top: 100px;
-  }
-
-
   .hero-images {
     width: 100%;
     justify-content: center;
     align-items: flex-end;
   }
 
-  .hero,
-  .hero1 {
+  .hero {
     max-width: 1440px;
   }
 
@@ -275,7 +265,6 @@
   }
 
   .hero-text {
-    display: flex;
     margin-left: 1008px;
     padding-top: 246px;
   }
