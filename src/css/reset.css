@@ -66,10 +66,6 @@ img {
   outline: 2px solid green;
 }
 
-* {
-  outline: 2px solid green;
-};
-
 .blackline {
   outline: 2px solid black;
 }
