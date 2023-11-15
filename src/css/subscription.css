@@ -115,14 +115,16 @@
 }
 
 .newsletter-submit-btn {
-  padding: 17px 65px;
   width: 224px;
-
-  background-color: var(--blue-font, #0a224a);
+  padding: 17px 65px;
+  justify-content: center;
+  align-items: center;
+  float:left;
+  background: var(--blue-font, #0a224a);
+  height: 50px;
   color: var(--white, #fff);
   font-size: 18px;
   line-height: 1.33;
-
   border: none;
 }
 

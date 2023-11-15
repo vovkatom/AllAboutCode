@@ -42,7 +42,7 @@
 }
 
 .hero-button {
-  display: flex;
+  /* display: flex; */
   width: 224px;
   padding: 17px 65px;
   justify-content: center;
